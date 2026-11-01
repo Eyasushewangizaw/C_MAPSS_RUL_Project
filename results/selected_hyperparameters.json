@@ -1,0 +1,90 @@
+{
+  "FD001": {
+    "Linear Regression": {},
+    "SVR": {
+      "kernel": "rbf",
+      "C": 10.0,
+      "epsilon": 10.0,
+      "gamma": "scale"
+    },
+    "Random Forest": {
+      "n_estimators": 200,
+      "max_depth": 10,
+      "min_samples_leaf": 5,
+      "max_features": 1.0
+    },
+    "XGBoost": {
+      "n_estimators": 300,
+      "learning_rate": 0.05,
+      "max_depth": 3,
+      "subsample": 0.8,
+      "colsample_bytree": 0.8
+    }
+  },
+  "FD002": {
+    "Linear Regression": {},
+    "SVR": {
+      "kernel": "rbf",
+      "C": 100.0,
+      "epsilon": 10.0,
+      "gamma": "scale"
+    },
+    "Random Forest": {
+      "n_estimators": 200,
+      "max_depth": null,
+      "min_samples_leaf": 5,
+      "max_features": 1.0
+    },
+    "XGBoost": {
+      "n_estimators": 300,
+      "learning_rate": 0.05,
+      "max_depth": 6,
+      "subsample": 0.8,
+      "colsample_bytree": 0.8
+    }
+  },
+  "FD003": {
+    "Linear Regression": {},
+    "SVR": {
+      "kernel": "rbf",
+      "C": 10.0,
+      "epsilon": 10.0,
+      "gamma": "scale"
+    },
+    "Random Forest": {
+      "n_estimators": 200,
+      "max_depth": 10,
+      "min_samples_leaf": 5,
+      "max_features": 1.0
+    },
+    "XGBoost": {
+      "n_estimators": 300,
+      "learning_rate": 0.05,
+      "max_depth": 3,
+      "subsample": 0.8,
+      "colsample_bytree": 0.8
+    }
+  },
+  "FD004": {
+    "Linear Regression": {},
+    "SVR": {
+      "kernel": "rbf",
+      "C": 100.0,
+      "epsilon": 1.0,
+      "gamma": "scale"
+    },
+    "Random Forest": {
+      "n_estimators": 200,
+      "max_depth": 20,
+      "min_samples_leaf": 5,
+      "max_features": 1.0
+    },
+    "XGBoost": {
+      "n_estimators": 300,
+      "learning_rate": 0.05,
+      "max_depth": 6,
+      "subsample": 0.8,
+      "colsample_bytree": 0.8
+    }
+  }
+}
