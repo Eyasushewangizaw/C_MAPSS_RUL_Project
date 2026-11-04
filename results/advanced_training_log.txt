@@ -1,0 +1,108 @@
+
+============================================================
+FD001
+============================================================
+  Normalization | FD001 | Linear Regression
+    val RMSE 20.41 | test RMSE 21.88 | 0.0s
+  Normalization | FD001 | SVR
+    val RMSE 17.19 | test RMSE 18.47 | 17.2s
+  Normalization | FD001 | Random Forest
+    val RMSE 17.01 | test RMSE 18.03 | 10.2s
+  Normalization | FD001 | XGBoost
+    val RMSE 16.93 | test RMSE 18.07 | 0.9s
+  health index | FD001 | early anchors 6561 | late anchors 1280
+  Health index | FD001 | Linear Regression
+    val RMSE 19.58 | test RMSE 21.06 | 0.0s
+  Health index | FD001 | SVR
+    val RMSE 18.95 | test RMSE 20.70 | 13.3s
+  Health index | FD001 | Random Forest
+    val RMSE 18.69 | test RMSE 20.41 | 1.5s
+  Health index | FD001 | XGBoost
+    val RMSE 18.49 | test RMSE 19.98 | 1.0s
+  similarity | FD001 | window 20 | k 5 | val RMSE 32.38
+  similarity | FD001 | window 20 | k 10 | val RMSE 29.54
+  similarity | FD001 | window 40 | k 5 | val RMSE 23.54
+  similarity | FD001 | window 40 | k 10 | val RMSE 18.79
+  selected similarity | FD001 | window 40 | k 10 | test RMSE 22.52
+FD001 checkpoint saved
+
+============================================================
+FD002
+============================================================
+  Normalization | FD002 | Linear Regression
+    val RMSE 21.52 | test RMSE 32.47 | 0.1s
+  Normalization | FD002 | SVR
+    val RMSE 20.15 | test RMSE 28.66 | 242.5s
+  Normalization | FD002 | Random Forest
+    val RMSE 19.69 | test RMSE 29.83 | 28.4s
+  Normalization | FD002 | XGBoost
+    val RMSE 19.59 | test RMSE 29.42 | 0.6s
+  health index | FD002 | early anchors 17464 | late anchors 3328
+  Health index | FD002 | Linear Regression
+    val RMSE 20.97 | test RMSE 32.45 | 0.0s
+  Health index | FD002 | SVR
+    val RMSE 21.22 | test RMSE 30.79 | 56.5s
+  Health index | FD002 | Random Forest
+    val RMSE 21.48 | test RMSE 32.09 | 5.6s
+  Health index | FD002 | XGBoost
+    val RMSE 20.28 | test RMSE 31.05 | 1.5s
+  similarity | FD002 | window 20 | k 5 | val RMSE 37.19
+  similarity | FD002 | window 20 | k 10 | val RMSE 35.46
+  similarity | FD002 | window 40 | k 5 | val RMSE 27.93
+  similarity | FD002 | window 40 | k 10 | val RMSE 26.51
+  selected similarity | FD002 | window 40 | k 10 | test RMSE 27.10
+FD002 checkpoint saved
+
+============================================================
+FD003
+============================================================
+  Normalization | FD003 | Linear Regression
+    val RMSE 19.34 | test RMSE 22.36 | 0.0s
+  Normalization | FD003 | SVR
+    val RMSE 15.56 | test RMSE 21.00 | 17.2s
+  Normalization | FD003 | Random Forest
+    val RMSE 15.75 | test RMSE 21.00 | 12.5s
+  Normalization | FD003 | XGBoost
+    val RMSE 15.78 | test RMSE 21.53 | 0.9s
+  health index | FD003 | early anchors 10012 | late anchors 1280
+  Health index | FD003 | Linear Regression
+    val RMSE 18.31 | test RMSE 23.12 | 0.0s
+  Health index | FD003 | SVR
+    val RMSE 17.64 | test RMSE 24.51 | 18.4s
+  Health index | FD003 | Random Forest
+    val RMSE 17.57 | test RMSE 24.48 | 1.6s
+  Health index | FD003 | XGBoost
+    val RMSE 17.41 | test RMSE 23.55 | 0.7s
+  similarity | FD003 | window 20 | k 5 | val RMSE 49.82
+  similarity | FD003 | window 20 | k 10 | val RMSE 47.28
+  similarity | FD003 | window 40 | k 5 | val RMSE 45.14
+  similarity | FD003 | window 40 | k 10 | val RMSE 41.18
+  selected similarity | FD003 | window 40 | k 10 | test RMSE 49.06
+FD003 checkpoint saved
+
+============================================================
+FD004
+============================================================
+  Normalization | FD004 | Linear Regression
+    val RMSE 22.75 | test RMSE 34.27 | 0.1s
+  Normalization | FD004 | SVR
+    val RMSE 19.73 | test RMSE 29.59 | 487.3s
+  Normalization | FD004 | Random Forest
+    val RMSE 19.81 | test RMSE 30.34 | 67.5s
+  Normalization | FD004 | XGBoost
+    val RMSE 19.58 | test RMSE 30.22 | 3.2s
+  health index | FD004 | early anchors 24419 | late anchors 3184
+  Health index | FD004 | Linear Regression
+    val RMSE 21.77 | test RMSE 34.41 | 0.0s
+  Health index | FD004 | SVR
+    val RMSE 21.35 | test RMSE 34.12 | 437.2s
+  Health index | FD004 | Random Forest
+    val RMSE 21.45 | test RMSE 34.33 | 6.2s
+  Health index | FD004 | XGBoost
+    val RMSE 20.76 | test RMSE 33.77 | 1.5s
+  similarity | FD004 | window 20 | k 5 | val RMSE 43.50
+  similarity | FD004 | window 20 | k 10 | val RMSE 43.21
+  similarity | FD004 | window 40 | k 5 | val RMSE 37.72
+  similarity | FD004 | window 40 | k 10 | val RMSE 37.02
+  selected similarity | FD004 | window 40 | k 10 | test RMSE 36.86
+FD004 checkpoint saved
